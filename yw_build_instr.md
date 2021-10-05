@@ -1,6 +1,6 @@
 The app uses Java 11 and Maven. 
-If you are using a Windows machie, ensure your `JAVA_HOME` points to JDK11. 
-
+* If you are using a Windows machie, ensure your `JAVA_HOME` points to JDK11. 
+* Also, disable the `dockerfile-maven-plugin` plugin when building each service to avoid docker related failures. 
 
 My build enironment: 
 ```
